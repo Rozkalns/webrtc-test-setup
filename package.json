@@ -1,0 +1,15 @@
+{
+  "name": "WebRTCTestSetup",
+  "version": "1.0.0",
+  "description": "Task >>> Create fake media feed for FireFox browser",
+  "author": "Roberts Rozkalns <roberts.rozkalns@me.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "SELENIUM_REMOTE_URL=http://localhost:4444/wd/hub SELENIUM_BROWSER=firefox ./node_modules/.bin/mocha -t 120000"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "mocha": "^5.2.0"
+  }
+}
